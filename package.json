@@ -1,5 +1,12 @@
 {
   "dependencies": {
-    "mqtt": "^5.5.0"
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "scripts": {
+    "test": "nodemon main.js"
   }
 }
